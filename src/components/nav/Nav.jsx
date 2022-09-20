@@ -5,6 +5,9 @@ import { AiOutlineUser } from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
 import { RiServiceLine } from 'react-icons/ri'
 import { BiMessageSquareDetail } from 'react-icons/bi'
+import {FaLaptopCode} from 'react-icons/fa'
+import { BsBarChartFill } from 'react-icons/bs'
+import { AiFillRightCircle } from 'react-icons/ai'
 
 import { useState } from 'react'
 
@@ -30,11 +33,11 @@ const Nav = () => {
       </a>
        <a href="#portfolio"  onClick={() => setActiveNav('#portfolio')}
           className={ activeNav === '#portfolio' ? 'active ' : '' } title='My Portfolio'>
-          <RiServiceLine />
+          <FaLaptopCode />
         </a>
         <a href="#testimonials" onClick={() => setActiveNav('#testimonials')}
           className={activeNav === '#review' ? 'active hide-sm' : 'hide-sm'} title='Testimonials'>
-          <BiMessageSquareDetail />
+          <BsBarChartFill />
         </a>
       <a href="#contact" onClick={() => setActiveNav('#contact')}
         className={activeNav === '#contact' ? 'active' : ''} title='My Contact'>
@@ -43,7 +46,7 @@ const Nav = () => {
       
       <a href="#footer" onClick={() => setActiveNav('#footer')}
         className={activeNav === '#footer' ? 'active ' : ''} title='My Contact'>
-        <BiMessageSquareDetail />
+        <AiFillRightCircle />
       </a>
       
     </nav>

@@ -29,9 +29,10 @@ const Porfolio_Card = (props) => {
             <img src={image} alt={title} />
           </div>
           <h3>{title}</h3>
-          <div className="portfolio_item-cta">
+        <div className="portfolio_item-cta">
+          <a href={demo} className='btn btn-primary'  target={!target ? false : '_blank'}>Live Demo</a>
             <a href={github} className='btn' target="_blank">Github</a>
-            <a href={demo} className='btn btn-primary' target={target && '_blank'}>Live Demo</a>
+            
           </div>
         </article>
       

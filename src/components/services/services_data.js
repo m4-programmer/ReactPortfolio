@@ -39,7 +39,7 @@ export const SoftwarePackages = [
         title: 'Responsive Apps',
 
     },
-    ,
+    
     {
         id: 7,
         title: 'Portfolio App\'s',
