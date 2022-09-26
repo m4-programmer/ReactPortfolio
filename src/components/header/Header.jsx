@@ -17,7 +17,7 @@ const Header = () => {
             across many tech stacks such as web development, software development and  data science.
           </p>
           <p className='show-sm'>
-          Am a self motivated person, i love challenges and i enjoy solving real wolrd problems with my tech skills.
+          Am a self motivated person, i love challenges and i enjoy solving real world problems with my tech skills.
           Do you need a proficient website for your business or company or do you want to learn how to program, then contact me quickly.
           </p>
         <CTA />
